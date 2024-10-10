@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #dde7c7;
+}
+h1 {
+    color: #283618;
+    font-family: 'Courier New';
+    font-size: 70px;
+    border-radius: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+button {
+    color: #E8E4DB;
+    background-color: #9BA17F;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    font-family: 'Courier New';
+    border-radius: 100px;
+    margin: 5px;
+    border: solid #283618 2px;
+}
+p{
+    font-size: 70px;
+}
