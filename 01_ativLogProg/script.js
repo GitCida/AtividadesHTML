@@ -7,3 +7,4 @@ function triste() {
 function seila() {
     document.getElementById('emoji').innerHTML = '😐';
 }
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitágoras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">
+        <h1>Pitágoras</h1>
+    </div>
+    <div id="hip">
+        <h3>Calcular hipotenusa</h3>
+        <p>Digite o valor do primeiro cateto</p>
+        <input type="Number" id="cat1" placeholder="Cateto 1">
+        <p>Digite o valor do segundo cateto</p>
+        <input type="Number" id="cat2" placeholder="Cateto 2">
+        <button id="CalcHip" onclick="CalcHip()">Enviar</button>
+        <h2 id="resultHip">O valor da hipotenusa é: </h2>
+    </div>
+    <div id="cat">
+        <h3>Calcular um dos catetos</h3>
+        <p>Digite o valor da hipotenusa</p>
+        <input type="number" id="hipotenusa" placeholder="Hipotenusa">
+        <P>Digite o valor do cateto que se tem o valor</P>
+        <input type="number" id="cateto" placeholder="Cateto">
+        <button id="CalcCateto" onclick="CalcCateto()">Enviar</button>
+        <h2 id="resultCat">O valor do cateto é: </h2>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

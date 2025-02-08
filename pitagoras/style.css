@@ -1,0 +1,84 @@
+/* Estilização Global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+}
+
+h1 {
+    color: #2d2d72;
+}
+
+h2 {
+    color: #444;
+    font-size: 18px;
+}
+
+h3 {
+    color: #2d2d72;
+}
+
+/* Título */
+#title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilização do Container de Cálculos */
+#hip, #cat {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Inputs e Botões */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #2d2d72;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1c1c56;
+}
+
+/* Resultados */
+#resultHip, #resultCat {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #2d2d72;
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 500px) {
+    #hip, #cat {
+        width: 90%;
+    }
+}
